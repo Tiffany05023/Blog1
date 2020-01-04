@@ -1,0 +1,43 @@
+body{
+    padding:0;
+    margin:0;
+    font-family: "microsoft yahei";
+    background: #34495e;
+}
+
+.login{
+    width:300px;
+    padding:40px;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    top:50%;
+    left:50%;
+    background:#211c36;
+    text-align:center;
+    border-radius:14px;
+    box-shadow:0 0 10px #000;
+}
+.login h1{
+    color:white;
+    text-transform:uppercase;
+    font-weight:500;
+}
+.login p{
+    color:white;
+}
+
+.login.user,
+.login.pass{
+    border: 0;
+    background:none;
+    display:block;
+    margin:20px auto;
+    text-align:center;
+    border:2px solid #3498db;
+    padding :14px;
+    width:200px;
+    outline:none;
+    color:white;
+    border-radius:24px;
+    transition:0.25s;
+}
